@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  17 AUG 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.18)  17 AUG 2026 02:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,15 +863,15 @@ Package rerunfilecheck Info: File `resume_eng.out' has not changed.
 (rerunfilecheck)             Checksum: 4B6388F37545B2BA76EF4FF3B0C67BB8;935.
  ) 
 Here is how much of TeX's memory you used:
- 27813 strings out of 467691
- 536554 string characters out of 5414019
+ 27809 strings out of 467691
+ 536508 string characters out of 5414019
  950870 words of memory out of 5000000
  56317 multiletter control sequences out of 15000+600000
- 677032 words of font info for 105 fonts, out of 8000000 for 9000
+ 676830 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,11n,136p,1026b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
-Output written on d:\unsa2026\resume\build\resume_eng.pdf (1 page, 156864 bytes).
+Output written on d:\unsa2026\resume\build\resume_eng.pdf (1 page, 156912 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
