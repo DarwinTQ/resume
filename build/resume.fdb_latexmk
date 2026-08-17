@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786938994.37351 "d:/unsa2026/resume/resume.tex" "build/resume.pdf" "resume" 1786938995.42284 0
+["pdflatex"] 1786940344.46734 "d:/unsa2026/resume/resume.tex" "build/resume.pdf" "resume" 1786940345.49121 0
   "C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1785477112 124149 f8b73c68b9bba92174b38376f6a38273 ""
   "C:/Users/Usuario/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779149455 13351240 e6ed8bf0a0b2ab370cb614f27a02069f ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -201,10 +201,10 @@
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1761901070 33142 efe8f4750fc02524935e7423b4bdef69 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Usuario/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "build/resume.aux" 1786938995 894 534d7becd9aef8d44d9baecbde6bc92d "pdflatex"
-  "build/resume.out" 1786938995 1073 b4814ddbd10f9fce21073f13f8004402 "pdflatex"
-  "d:/unsa2026/resume/resume.tex" 1786938993 5050 f12e8b3ec311ea0027334640139c7c4f ""
-  "resume.tex" 1786938993 5050 f12e8b3ec311ea0027334640139c7c4f ""
+  "build/resume.aux" 1786940345 937 09588729c41edf41f3bad50c3cdf3ced "pdflatex"
+  "build/resume.out" 1786940345 1073 b4814ddbd10f9fce21073f13f8004402 "pdflatex"
+  "d:/unsa2026/resume/resume.tex" 1786940343 5063 302236e9706cfa1cc3fb3ed0781f7b96 ""
+  "resume.tex" 1786940343 5063 302236e9706cfa1cc3fb3ed0781f7b96 ""
   (generated)
   "build/resume.aux"
   "build/resume.log"

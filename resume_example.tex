@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[spanish]{babel}
+\usepackage[scale=0.86,top=1.4cm,bottom=1.4cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+
+\definecolor{accent}{RGB}{20,20,20}
+\definecolor{rule}{RGB}{120,120,120}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section styling
+\titleformat{\section}
+  {\large\bfseries\scshape}
+  {}{0pt}{}[\vspace{-0.6ex}\color{rule}\titlerule]
+\titlespacing{\section}{0pt}{2.2ex}{1.2ex}
+
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.15ex,topsep=0.4ex,parsep=0pt}
+
+% Entry command: {role}{org}{dates}{location}
+\newcommand{\entry}[4]{%
+  \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+  \textbf{#1} & \textbf{#4} \\
+  \textit{#2} & \textit{#3} \\
+  \end{tabular*}\vspace{0.3ex}%
+}
+
+\begin{document}
+
+% ===== Header =====
+\begin{center}
+  {\LARGE\bfseries Darwin Cristhian Turpo Quispe}\\[0.4ex]
+  {\large Desarrollador Full Stack Junior \ $\cdot$\ Python $\cdot$ FastAPI $\cdot$ Django $\cdot$ JavaScript}\\[0.9ex]
+  +51 957565165 \quad$\vert$\quad darwin.turpo17@gmail.com \quad$\vert$\quad Arequipa, PE\\[0.4ex]
+  \href{https://linkedin.com/in/darwin-turpo-813083313}{LinkedIn}
+  \quad$\vert$\quad
+  \href{https://github.com/darwintq}{GitHub}
+  \quad$\vert$\quad
+  \href{https://portfolio-ai-cyan-seven.vercel.app/}{Portafolio}
+\end{center}
+
+% ===== Perfil =====
+\section{Perfil Profesional}
+Estudiante de Ingeniería de Software con IA e Ingeniería de Telecomunicaciones, orientado al desarrollo backend y la integración de sistemas. Construyo APIs y arquitecturas modulares con Python, FastAPI y Django, y trabajo cómodo con SQL, Git y entornos Linux. Enfocado en entregar software bien estructurado, mantenible y probado, aportando valor técnico desde el primer día.
+
+% ===== Experiencia =====
+\section{Experiencia y Proyectos}
+\entry{Desarrollador Full Stack}{Pontificia Universidad Católica del Perú (PUCP)}{Ene 2026 -- Ago 2026}{Lima, PE}
+\begin{itemize}
+  \item Diseñé una arquitectura modular por capas con FastAPI y WebSockets que desacopló 3 subsistemas del CubeSat 1U, permitiendo pruebas e integración independientes por subsistema.
+  \item Centralicé el registro de más de 5 sensores en una base de datos relacional y construí dashboards de monitoreo en Django, habilitando la trazabilidad de telemetría en tiempo real.
+  \item Implementé una estrategia de branching y revisión de código en Git para un equipo de 4 personas, reduciendo de forma notable los conflictos de integración.
+\end{itemize}
+
+% ===== Formación Académica =====
+\section{Formación Académica}
+\entry{Ingeniería de Software con Inteligencia Artificial}{SENATI}{2024 -- actualidad}{Perú}
+\vspace{0.6ex}
+\entry{Ingeniería de Telecomunicaciones}{Universidad Nacional de San Agustín de Arequipa}{2023 -- actualidad}{Arequipa, PE}
+
+% ===== Competencias =====
+\section{Competencias Técnicas}
+\begin{itemize}
+  \item \textbf{Lenguajes:} Python, JavaScript, TypeScript, Java, PHP
+  \item \textbf{Backend / APIs:} FastAPI, Django, Laravel, REST APIs, WebSockets
+  \item \textbf{Bases de Datos:} Oracle SQL, MySQL
+  \item \textbf{Frontend:} HTML5, CSS3
+  \item \textbf{Herramientas y Sistemas:} Git, Linux (Red Hat), Android Studio, Flutter, DrawIO
+  \item \textbf{Productividad con IA:} Claude Code, OpenCode, ChatGPT, Gemini
+\end{itemize}
+
+% ===== Formación Complementaria =====
+\section{Formación Complementaria}
+\begin{itemize}
+  \item Python Essentials 2 --- Cisco Academy --- 160 horas --- 2024
+  \item SQL Database --- Oracle Academy --- 40 horas --- 2025
+  \item IT Essentials --- INFOUNSA --- 20 horas --- 2025
+  \item CADE Universitario 2026 --- IPAE --- 3 días (liderazgo y emprendimiento)
+\end{itemize}
+
+% ===== Habilidades Blandas =====
+\section{Habilidades Blandas}
+Trabajo en equipo, aprendizaje continuo, pensamiento analítico, adaptabilidad, compromiso y puntualidad.
+
+% ===== Idiomas =====
+\section{Idiomas}
+\begin{itemize}
+  \item \textbf{Español:} Nativo
+  \item \textbf{Inglés:} Intermedio --- Cultural Arequipa (Enero 2025 -- Actualidad)
+\end{itemize}
+
+\end{document}
